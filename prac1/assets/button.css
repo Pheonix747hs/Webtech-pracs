@@ -28,14 +28,14 @@
   
   @keyframes anim {
     0% {
-      transform: translateY(-60px);
+      transform: translateY(-65px);
     }
   
     50% {
-      transform: translateY(-35px);
+      transform: translateY(-85px);
     }
   
     100% {
-      transform: translateY(-60px);
+      transform: translateY(-65px);
     }
   }
