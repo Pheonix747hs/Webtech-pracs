@@ -1,0 +1,17 @@
+.employees {
+     display: flex; /* Allow cards to wrap to next line if needed */
+     flex-wrap: wrap;
+     margin: 8px;
+   }
+   
+   .Employee {
+     margin: 10px; /* Spacing between cards */
+     padding: 15px;
+     border: 1px solid silver;
+     border-radius: 5px; /* Add rounded corners for a card-like feel */
+     background-color: whitesmoke;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+     width: 25%; /* Adjust width as needed for card size */
+     text-align: center; /* Center content within the card */
+   }
+   

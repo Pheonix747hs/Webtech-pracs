@@ -1,0 +1,22 @@
+Company{
+    display:table; 
+    font-size:14px; 
+    margin:8px; 
+    font-family: Verdana; 
+    width: 99%;
+}
+
+Employee{
+    display:table-row; 
+    text-align:center; 
+    border: 1px solid silver; 
+    padding:5px; 
+    background-color:whitesmoke; 
+}
+
+salary,Address,Email,ContactNo,LastName,FirstName{
+    display: table-cell; 
+    border: solid 1px; 
+    width: 12%;
+    height: 60px;
+}
