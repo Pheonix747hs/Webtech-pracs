@@ -39,7 +39,7 @@ function parseEmployees(xmlData) {
 function createEmployeeCard(employee) {
   const card = document.createElement("div");
   card.classList.add("Employee");
-
+  
   const name = document.createElement("p");
   name.textContent = `<b>Name:</b> ${employee.firstName} ${employee.lastName}`;
   card.appendChild(name);
