@@ -27,7 +27,7 @@ public class EbookshopServlet extends HttpServlet {
         try {
             // Replace with your MySQL connection details
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/servlet_test", "username", "password");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/servlet_test", "root", "");
 
             Statement statement = connection.createStatement();
             ResultSet result = statement.executeQuery("SELECT * FROM ebookshop");
